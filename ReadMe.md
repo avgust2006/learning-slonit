@@ -55,7 +55,7 @@ git show
 ### Add Files to the Index Area:
 
 # Add specific file
-git add <file-name>
+git add ReadMe.md
 
 # Add all files in the current directory
 git add .
@@ -89,12 +89,12 @@ git commit -a -m "Commit message"
 
 ### Remove Files from Repository and Index:
 
-git rm <file-name>
+git rm ReadMe.md
 
 
 ### Remove Files Only from Index (Keep in Working Directory):
 
-git rm --cached <file-name>
+git rm --cached ReadMe.md
 
 
 
